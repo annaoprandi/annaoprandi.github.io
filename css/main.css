@@ -1,5 +1,6 @@
 body {
     margin: 60px auto;
+    font-family: 'Sans-Serif';
     width: 70%;
 }
 nav ul, footer ul {
@@ -14,10 +15,14 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #00FA9A;
+    color: #20B2AA;
+}
+a:visited{
+    color: #008B8B;
 }
 a:hover {
     text-decoration: underline;
+    color: #008B8B;
 }
 h1 {
     font-size: 3em;
