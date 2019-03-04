@@ -3,6 +3,7 @@ body {
     font-family: 'Helvetica';
     width: 70%;
     background-color: #191923;
+    color: #FFFFFF;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -48,4 +49,5 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+    color: #FFFFFF;
 }
