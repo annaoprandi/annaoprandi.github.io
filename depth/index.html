@@ -15,9 +15,11 @@ title: In-depth
 			There are two types of high density environments:
 			<ul>
   			<li> Galaxy clusters: The largest gravitationally bound structures of the universe. They
-				contain thousands of galaxies and their masses are around ... Virgo is the nearest galaxy cluster,
-				at 16.5 Mpc and ...</li>
-				<li> Galaxy groups: </li>
+				contain thousands of galaxies and their masses are around 100000 billion solar masses.
+				Virgo is the nearest galaxy cluster, located at 16.5 Mpc from us.</li>
+				<li> Galaxy groups: Small aggregates of galaxies that contain up to 50
+				members. They have masses around 1000 billion solar masses. The Milky Way is located
+				in a group of galaxies, the Local Group.</li>
 		</ul>
 			<h2> Quenching </h2>
 			<p> A galaxy is defined as "quenched" when it has run out of all of the cold gas (temperature HERE) needed
@@ -34,9 +36,14 @@ title: In-depth
 			</br>
 			These mechanisms can be divided in two categories:
                         <ul>
-				<li> Hydrodynamical mechanisms: ... </li>
-			        <li> Gravitational mechanisms: ... </li>
+				<li> Hydrodynamical mechanisms: Ram-pressure stripping, strangulation. </li>
+			        <li> Gravitational mechanisms: Harassment, tidal stripping. </li>
 			</ul>
+
+                        Gravitational mechanisms are typically more effective than hydrodynamical mechanisms. They all have
+different radius of influence, but they are all effective in the innermost regions of the high density environment.
+We would then expect galaxies located in these inner regions to be subject to the combined effect of all mechanisms: so they
+tend to be more gas-poor.
 			
 				<h2> How do you calculate how long it takes for a galaxy to be stripped of all of its gas?</h2>
 				The focus of my research project is to build a statistical model that constrains the "quenching
@@ -50,6 +57,35 @@ title: In-depth
 				<li> The time at which the galaxy and surrounding CDM fell into the massive CDM halo associated
 					with the high density environment</li>
 				</ul>
+                                
+The model does not take into account the position of the galaxy within the cluster (which is an important factor) due to lack
+of observational data, needed to build a phase space of the high density environment.
+
+The input for the model are:
+<ul>
+	<li> Observational data of the cluster or group of interest. The data must include mass info of galaxies AND star formation OR 
+		gas content OR photometry. One of these three is needed in order to deduce star formation.</li>
+	<li> Dark matter simulation data from a suite that reproduces mass conditions of the observed environment. The data must include
+		mass information and time of infall into environment for each satellite galaxy (and associated CDM halo). The
+		higher the mass and temporal resolution the better. </li>
+</ul>
+		
+
+The main steps of the model are as follows:
+
+<ol>
+	<li> Using observational data classify the galaxies into a star-forming population or a quiescent population across
+		all masses.<\li>
+	<li> Associated simulated infall times by matching the simulated and observed masses of the objects.<\li>
+	<li> Use the distribution of infall times of the star-forming and quiescent populations to calculate how long
+		it took for the galaxies to be fully quenched.<\li>
+<\ol>
+	
+There are a few improvements that can be made to the model, such as the inclusion of a mass loss profile for the galaxies
+	once they are accreted within the high density environment.
+If you would like to talk more about this or have an idea to improve the model do get in contact! My email is in the "About" section.
+	
+	
 	
 
 		</div>
